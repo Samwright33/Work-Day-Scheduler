@@ -13,9 +13,7 @@ form.addEventListener('submit', (e) => {
   localStorage.setItem('form', json);
 })
 
-saveButtonEl.on('click', function () {
-  location.save();
-})
+
 
 // Used bootstrap to add current date and time
 function displayDate () {
